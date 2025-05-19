@@ -1,7 +1,3 @@
-
-
-✅ Full Copy-Paste README.md
-
 # 📚 ResearcherAssist
 
 AI-powered assistant for academic papers. Upload a PDF, ask deep questions, and get accurate answers — powered by LangChain, OpenAI, Supabase, Flask, and React.
