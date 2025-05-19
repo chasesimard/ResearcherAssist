@@ -1,6 +1,4 @@
-Absolutely — here’s a polished, recruiter-ready README.md for your GitHub repo:
 
-⸻
 
 ✅ Full Copy-Paste README.md
 
@@ -88,8 +86,8 @@ Navigate to http://localhost:5173
 ⸻
 
 ⚠️ Notes
-	•	Your PDF must be under 10MB and contain extractable text
-	•	For Supabase: create a documents table and match_documents function (see supabase.sql if included)
+	• Your PDF must be under 10MB and contain extractable text
+	• For Supabase: create a documents table and match_documents function (see supabase.sql if included)
 
 ⸻
 
