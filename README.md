@@ -1,3 +1,9 @@
+Absolutely — here’s a polished, recruiter-ready README.md for your GitHub repo:
+
+⸻
+
+✅ Full Copy-Paste README.md
+
 # 📚 ResearcherAssist
 
 AI-powered assistant for academic papers. Upload a PDF, ask deep questions, and get accurate answers — powered by LangChain, OpenAI, Supabase, Flask, and React.
@@ -7,16 +13,16 @@ AI-powered assistant for academic papers. Upload a PDF, ask deep questions, and 
 ---
 
 ## 🔍 Demo Screenshots
+![image](https://github.com/user-attachments/assets/91d0869d-03cd-4aaa-80fa-03ca3904c33a)
 
-![image](https://github.com/user-attachments/assets/3ee749d6-3173-47a4-bcae-98c2e7c9e767)
 
 
 ### 🖼️ Upload PDF
-![upload](screenshots/upload.png)
+reen![image](https://github.com/user-attachments/assets/b50059e6-10ac-46fe-a28f-ba75a9c54d93)
+
 
 ### 💬 Ask Questions
-![image](https://github.com/user-attachments/assets/c570f5d3-256e-4eb0-b1ae-8ff61a5a17ac)
-
+![qa](screenshots/qa.png)
 
 ---
 
@@ -50,3 +56,60 @@ AI-powered assistant for academic papers. Upload a PDF, ask deep questions, and 
 ```bash
 git clone git@github.com:chasesimard/ResearcherAssist.git
 cd ResearcherAssist
+
+2. Setup Python backend
+
+cd backend
+python -m venv .venv
+source .venv/bin/activate  # or .venv\\Scripts\\activate on Windows
+pip install -r requirements.txt
+touch .env
+
+Paste into .env:
+
+OPENAI_API_KEY=sk-...
+SUPABASE_URL=https://<your-project>.supabase.co
+SUPABASE_API_KEY=ey...
+
+python app.py
+
+
+
+⸻
+
+3. Setup React frontend
+
+cd ../frontend
+npm install
+npm run dev
+
+Navigate to http://localhost:5173
+
+⸻
+
+⚠️ Notes
+	•	Your PDF must be under 10MB and contain extractable text
+	•	For Supabase: create a documents table and match_documents function (see supabase.sql if included)
+
+⸻
+
+📄 License
+
+MIT
+
+⸻
+
+👋 Contact
+
+Made with 💡 by @chasesimard
+Want to contribute? PRs welcome!
+
+---
+
+When you’re ready:
+```bash
+touch README.md
+# paste the code above
+git add README.md
+git commit -m "Add polished README"
+git push
