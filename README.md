@@ -99,11 +99,3 @@ Made with 💡 by @chasesimard
 Want to contribute? PRs welcome!
 
 ---
-
-When you’re ready:
-```bash
-touch README.md
-# paste the code above
-git add README.md
-git commit -m "Add polished README"
-git push
